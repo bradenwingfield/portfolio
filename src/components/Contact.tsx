@@ -6,7 +6,7 @@ export default function Contact() {
       {/* Heading + Message */}
       <h2 className="text-3xl font-semibold text-black mb-4">Let&apos;s Connect</h2>
       <p className="text-gray-600 text-lg mb-4">
-        If you're interested in my work or have an opportunity in mind, I'd love to hear from you.
+        If you&apos;re interested in my work or have an opportunity in mind, I&apos;d love to hear from you.
       </p>
 
       {/* Actions: Email + Resume */}

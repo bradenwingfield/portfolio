@@ -3,7 +3,7 @@ export default function PortfolioPage() {
       <main className="pt-20 px-6 max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-4">Personal Portfolio Website</h1>
         <p className="text-gray-600 text-lg mb-6">
-          The site you're browsing now — designed to showcase my work with a focus on clean UI, responsiveness, and a smooth dev experience using the App Router, TypeScript, and Tailwind.
+          The site you&apos;re browsing now — designed to showcase my work with a focus on clean UI, responsiveness, and a smooth dev experience using the App Router, TypeScript, and Tailwind.
         </p>
         <img
           src="/project-placeholder.jpg"
