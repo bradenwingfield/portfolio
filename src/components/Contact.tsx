@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section className="w-full px-6 py-24 max-w-4xl mx-auto text-center" id="contact">
       {/* Heading + Message */}
-      <h2 className="text-3xl font-semibold text-black mb-4">Let’s Connect</h2>
+      <h2 className="text-3xl font-semibold text-black mb-4">Let&apos;s Connect</h2>
       <p className="text-gray-600 text-lg mb-4">
         If you're interested in my work or have an opportunity in mind, I'd love to hear from you.
       </p>
