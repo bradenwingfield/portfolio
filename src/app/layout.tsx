@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 import Navbar from '../components/Navbar'
+import { Analytics } from '@vercel/analytics/react' // ✅ NEW
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Braden Wingfield',
     images: [
       {
-        url: '/avatar.png', // ✅ path to your image in public/
+        url: '/avatar.png',
         width: 1200,
         height: 630,
         alt: 'Braden Wingfield Portfolio',
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Braden Wingfield',
     description: 'Portfolio website for Braden Wingfield.',
-    images: ['/avatar.png'], // ✅ again, path to image
+    images: ['/avatar.png'],
   },
 }
 
@@ -48,6 +49,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-white text-black`}>
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   )
