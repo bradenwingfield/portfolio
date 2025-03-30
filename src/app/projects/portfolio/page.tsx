@@ -50,7 +50,9 @@ export default function PortfolioPage() {
       <section className="mb-10 border-t border-gray-200 pt-6">
         <h2 className="text-xl font-semibold mb-4">The Outcome</h2>
         <p>
-          Got immediate positive feedback from mentors and recruiters. Used it successfully in job applications.
+        The site received positive feedback from mentors and recruiters and has helped me stand out in job applications by clearly communicating my work and process. 
+        It consistently scores 100 across all categories in Google Lighthouse, including performance, accessibility, best practices, and SEO. 
+        Building this project taught me the importance of personal storytelling in tech and how design choices influence how your work is perceived. 
         </p>
       </section>
 
