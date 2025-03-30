@@ -2,7 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 import Navbar from '../components/Navbar'
-import { Analytics } from '@vercel/analytics/react' // ✅ NEW
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 

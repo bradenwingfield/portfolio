@@ -4,7 +4,9 @@ export default function About() {
         <div className="space-y-6">
           <h2 className="text-3xl font-semibold text-black">About</h2>
           <p className="text-gray-600 text-lg leading-relaxed max-w-prose">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius non felis at sagittis. Aliquam ligula elit, dapibus facilisis lorem id, laoreet malesuada lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent id vestibulum ipsum. Vivamus dapibus ante quis scelerisque dignissim. Integer tempor tincidunt eros, a pharetra dui commodo et. Aliquam tincidunt sem in ultrices pharetra. Etiam tincidunt risus eu diam rutrum, eu malesuada ante pellentesque.
+            “<strong>Everything</strong> around you that you call <strong>life</strong> was made up by people no smarter than you, and you can <strong>change</strong> it, you can <strong>influence</strong> it, you can <strong>build</strong> your own things that other people can use.” — Steve Jobs
+            <br />
+            This belief led me to study <strong>computer science</strong>, pursue <strong>entrepreneurship</strong>, and explore how <strong>technology</strong> can shape the world around us. I&apos;m especially drawn to the intersection of <strong>engineering</strong>, <strong>design</strong>, and <strong>business</strong>, because I believe the <strong>future</strong> is shaped by what we build <strong>today</strong>.
           </p>
         </div>
       </section>
