@@ -25,9 +25,9 @@ export const projects = [
     },
     {
     slug: 'portfolio',
-    title: 'Portfolio Website',
-    description: 'The site you\'re browsing now, designed to showcase my work with a focus on clean UI, responsiveness, and a smooth dev experience using the React, TypeScript, and Tailwind.',
-    image: '/project-placeholder.jpg',
+    title: 'Personal Portfolio Website',
+    description: 'The site you\'re browsing right now was built from the ground up to showcase my work with a clean, responsive UI.',
+    image: '/personal_portfolio_website.png',
     tags: ['React', 'Typescript', 'Tailwind', 'Vercel'],
     featured: false,
     }, 
