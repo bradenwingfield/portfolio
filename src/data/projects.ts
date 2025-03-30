@@ -9,9 +9,9 @@ export const projects = [
     },
     {
       slug: 'hack4impact', 
-      title: 'Hack4Impact MVP',
-      description: 'Led the dev team for a web app that connects nonprofits with volunteers.',
-      image: '/project-placeholder.jpg',
+      title: 'Hack4Impact',
+      description: 'Students building professional software for nonprofits.',
+      image: '/hack4impact.png',
       tags: ['React', 'MongoDB'],
       featured: true,
     },
