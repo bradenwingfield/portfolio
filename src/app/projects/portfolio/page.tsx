@@ -57,7 +57,7 @@ export default function PortfolioPage() {
       <section className="mb-10 border-t border-gray-200 pt-6">
         <h2 className="text-xl font-semibold mb-4">Reflection</h2>
         <p>
-          This project taught me how important personal storytelling is in tech. I'd like to experiment
+          This project taught me how important personal storytelling is in tech. I&apos;d like to experiment
           with adding more interactivity and blog posts next.
         </p>
       </section>
