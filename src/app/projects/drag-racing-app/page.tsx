@@ -10,7 +10,7 @@ export default function DragRacingAppPage() {
       {/* Hero Image */}
       <div className="mb-10">
         <Image
-          src="/project-placeholder.jpg"
+          src="/project-placeholder.png"
           alt="Drag Racing App Screenshot"
           width={1200}
           height={630}

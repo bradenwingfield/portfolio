@@ -8,7 +8,7 @@ export default function TVAProjectPage() {
 
       <div className="mb-10">
         <Image
-          src="/project-placeholder.jpg"
+          src="/project-placeholder.png"
           alt="TVA App Screenshot"
           width={1200}
           height={630}
