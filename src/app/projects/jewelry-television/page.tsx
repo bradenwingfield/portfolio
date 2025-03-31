@@ -79,7 +79,7 @@ export default function JTVPage() {
             </div>
 
             <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-600">
-                "We immediately saw improvement from the reconfiguration." - JTV Stakeholder 
+                &quot;We immediately saw improvement from the reconfiguration.&quot; - JTV Stakeholder 
             </blockquote>
 
             <p className="text-gray-700">
