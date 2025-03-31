@@ -56,17 +56,49 @@ export default function PortfolioPage() {
         </p>
       </section>
 
-      <section className="border-t border-gray-200 pt-6">
-        <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>
-        <div className="flex flex-wrap gap-4 mb-6">
-          <span className="bg-gray-100 px-3 py-1 rounded-md text-sm">Next.js</span>
-          <span className="bg-gray-100 px-3 py-1 rounded-md text-sm">React</span>
-          <span className="bg-gray-100 px-3 py-1 rounded-md text-sm">Tailwind CSS</span>
-          <span className="bg-gray-100 px-3 py-1 rounded-md text-sm">TypeScript</span>
-          <span className="bg-gray-100 px-3 py-1 rounded-md text-sm">Vercel</span>
-          <a href="https://github.com/bradenwingfield/portfolio" target="_blank" rel="noopener noreferrer">
-            <span className="bg-gray-100 px-3 py-1 rounded-md text-sm underline">Github</span>
-          </a>
+      <section className="border-t border-gray-200 pt-6 pb-16">
+      <div className="flex flex-col md:flex-row justify-between gap-8">
+          {/* Tech Stack Icons */}
+          <div>
+            <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>
+            <div className="grid grid-cols-4 gap-4">
+            {[
+              { src: '/icons/vercel.svg', alt: 'Vercel', link: 'https://vercel.com' },
+              { src: '/icons/react.svg', alt: 'React', link: 'https://react.dev' },
+              { src: '/icons/nodedotjs.svg', alt: 'Node.js', link: 'https://nodejs.org' },
+              { src: '/icons/typescript.svg', alt: 'TypeScript', link: 'https://www.typescriptlang.org/' },
+              { src: '/icons/github.svg', alt: 'GitHub', link: 'https://github.com' },
+            ].map(({ src, alt, link }) => (
+              <a
+                key={src}
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-full bg-gray-100 flex items-center justify-center w-14 h-14 transition hover:scale-105"
+              >
+                <img src={src} alt={alt} className="w-6 h-6" />
+              </a>
+            ))}
+
+            </div>
+          </div>
+
+          {/* Links */}
+          <div>
+            <h2 className="text-xl font-semibold mb-4">Links</h2>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="https://github.com/bradenwingfield/portfolio" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  Project Github Repository
+                </a>
+              </li>              
+              <li>
+                <a href="https://bradenwingfield.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  This Website
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>

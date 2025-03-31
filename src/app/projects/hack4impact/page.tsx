@@ -130,7 +130,7 @@ export default function Hack4ImpactProjectPage() {
                 { src: '/icons/notion.svg', alt: 'Notion', link: 'https://notion.so' },
               ].map(({ src, alt, link }) => (
                 <a
-                  key={alt}
+                  key={src}
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
