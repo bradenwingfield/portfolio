@@ -62,7 +62,7 @@ export default function Hack4ImpactProjectPage() {
           <h3 className="text-lg font-medium mb-1">Tech Lead</h3>
           <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
             <li>Led a team of seven junior developers</li>
-            <li>Facilitated agile standups, sprints, and code reviews</li>
+            <li>Facilitated Agile standups, sprints, and code reviews</li>
             <li>Mentored developers and helped them ramp up quickly</li>
           </ul>
         </div>
@@ -72,7 +72,7 @@ export default function Hack4ImpactProjectPage() {
           <h3 className="text-lg font-medium mb-1">Director of Talent Sourcing</h3>
           <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
             <li>Rebuilt our recruiting funnel to raise the bar on talent</li>
-            <li>Interviewed 60+ applicants and redefined our evaluation rubrics</li>
+            <li>Interviewed 80+ applicants and redefined our evaluation rubrics</li>
             <li>Created onboarding and technical documentation in Notion to help new team members hit the ground running</li>
           </ul>
         </div>
