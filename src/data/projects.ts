@@ -1,8 +1,8 @@
 export const projects = [
     {
       slug: 'tva', 
-      title: 'TVA Proof of Concept',
-      description: 'Created a skeleton Angular/.NET app to demonstrate replacing a legacy system.',
+      title: 'TVA',
+      description: 'Software engineering intern at the Tennessee Valley Authority.',
       image: '/project-placeholder.png',
       tags: ['Angular', '.NET', 'Excel'],
       featured: true,

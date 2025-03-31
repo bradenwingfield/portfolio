@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
-export default function TVAProjectPage() {
+export default function TVAPage() {
   return (
     <main className="pt-20 px-6 max-w-3xl mx-auto">
-      <h1 className="text-4xl font-bold mb-2">TVA Proof of Concept</h1>
-      <p className="text-gray-500 mb-6">Replacing a legacy system with Angular/.NET</p>
+      <h1 className="text-4xl font-bold mb-2">TVA</h1>
+      <p className="text-gray-500 mb-6">Software engineering intern at the Tennessee Valley Authority.</p>
 
       <div className="mb-10">
         <Image
