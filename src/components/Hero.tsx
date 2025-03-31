@@ -12,7 +12,7 @@ export default function Hero() {
           <h1 className="text-5xl font-bold tracking-tight text-black">Braden Wingfield</h1>
           <h2 className="text-2xl text-gray-600 font-medium">
             <Typewriter
-              words={['Computer Science', 'University of Tennessee', 'Entrepreneur']}
+              words={['Computer Science', 'Business & Engineering', 'University of Tennessee']}
               loop={0}
               cursor
               cursorStyle="|"

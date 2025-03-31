@@ -16,12 +16,20 @@ export const projects = [
       featured: true,
     },
     {
+      slug: 'jewelry-television',
+      title: 'Jewelry Television',
+      description: 'Cut inventory processing time by 27% and unlocked ~$10M in revenue for a national retailer using Lean Six Sigma.',
+      image: '/JTV.png',
+      tags: ['Lean Six Sigma'],
+      featured: true,
+    }, 
+    {
       slug: 'drag-racing-app', 
       title: 'Drag Racing Time Tracker',
       description: 'iOS app to predict and log drag race times using Expo + React Native.',
       image: '/project-placeholder.png',
       tags: ['React Native', 'Expo'],
-      featured: true,
+      featured: false,
     },
     {
     slug: 'portfolio',
