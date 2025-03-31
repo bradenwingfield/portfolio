@@ -21,58 +21,98 @@ export default function Hack4ImpactProjectPage() {
       <section className="mb-10">
         <h2 className="text-xl font-semibold mb-4">Overview</h2>
         <p>
-          Across three semesters, I helped shape the University of Tennessee chapter of Hack4Impact, a student organization that partners with nonprofits to build meaningful software.
-          My journey included roles in development, leadership, and recruiting, all focused on growing both our technical impact and the people behind it.
+          Many nonprofits lack the technical resources to build the software they need. 
+          At the same time, student developers are hungry for real-world projects that make a difference. 
+          Hack4Impact brings the two together. 
+          We partner with nonprofits to build custom tools while giving students the chance to grow as engineers, designers, collaborators, and leaders. 
+          <br></br>
+          <br></br>
+          Over the past three semesters, I&apos;ve helped shape the University of Tennessee chapter by writing my first lines of production code, leading recruiting efforts, and launching new projects. 
+          Along the way, I learned how to work on a real development team, mentor others, and build systems designed to last beyond a single semester.
         </p>
       </section>
 
-      <section className="mb-10 grid md:grid-cols-2 gap-8 border-t border-gray-200 pt-6">
-        <div>
-          <h2 className="text-xl font-semibold mb-2">The Problem</h2>
-          <p>
-            Nonprofits often rely on outdated systems or generic tools that don&apos;t fit their mission.
-            At the same time, student developers are eager to learn by doing but lack structured, impactful opportunities.
-            Hack4Impact solves both problems by building custom tools for nonprofits while giving students real-world experience in software development.
-          </p>
-        </div>
-        <div>
-          <h2 className="text-xl font-semibold mb-2">My Role</h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-700">
-            <li>
-              <strong>Developer (Learning-Based Project):</strong> Built full-stack features, collaborated with peers, and learned Git workflows.
-            </li>
-            <li>
-              <strong>Tech Lead:</strong> Led a team of developers, ran standups, reviewed pull requests, and helped ship on time.
-            </li>
-            <li>
-              <strong>Project Sourcing:</strong> Identified mission-driven nonprofits and evaluated alignment with our team capacity.
-            </li>
-            <li>
-              <strong>Director of Talent Sourcing:</strong> Interviewed over 60 applicants, rebuilt the recruiting funnel, and improved candidate quality.
-            </li>
+    {/* Roles*/}
+    <section className="mb-10 border-t border-gray-200 pt-6">
+      <h2 className="text-xl font-semibold mb-4">My Roles</h2>
+
+      <div className="grid gap-4">
+        <div className="relative rounded-xl border border-gray-200 p-4 hover:shadow-sm transition">
+          <div className="absolute top-4 right-4 text-xs text-gray-400">2023-2024</div>
+          <h3 className="text-lg font-medium mb-1">Junior Developer</h3>
+          <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <li>Built full-stack features using the MERN stack</li>
+            <li>Collaborated in a structured student dev team</li>
+            <li>Learned Git  and development workflows, Agile, and pair programming</li>
           </ul>
         </div>
-      </section>
 
-      <section className="mb-10 border-t border-gray-200 pt-6">
-        <h2 className="text-xl font-semibold mb-4">The Approach</h2>
-        <p>
-          We used the MERN stack, GitHub for version control, Figma for design, and Notion for documentation. 
-          As a tech lead, I improved Git workflows using VS Code&apos;s Source Control tab, helped junior developers grow through pair programming, and created onboarding materials to streamline ramp-up time.
-          As Director, I developed a scoring rubric and coordinated recruitment timelines to align with the needs of engineering and design leadership.
+        <div className="relative rounded-xl border border-gray-200 p-4 hover:shadow-sm transition">
+          <div className="absolute top-4 right-4 text-xs text-gray-400">2023-2024</div>
+          <h3 className="text-lg font-medium mb-1">Project Sourcing</h3>
+          <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <li>Networked with Knoxville nonprofits</li>
+            <li>Identified and scoped projects aligned with our mission</li>
+            <li>Launched four new nonprofit partnerships</li>
+          </ul>
+        </div>
+        
+        <div className="relative rounded-xl border border-gray-200 p-4 hover:shadow-sm transition">
+          <div className="absolute top-4 right-4 text-xs text-gray-400">2024-2025</div>
+          <h3 className="text-lg font-medium mb-1">Tech Lead</h3>
+          <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <li>Led a team of seven junior developers</li>
+            <li>Facilitated agile standups, sprints, and code reviews</li>
+            <li>Mentored developers and helped them ramp up quickly</li>
+          </ul>
+        </div>
+
+        <div className="relative rounded-xl border border-gray-200 p-4 hover:shadow-sm transition">
+          <div className="absolute top-4 right-4 text-xs text-gray-400">2024-2025</div>
+          <h3 className="text-lg font-medium mb-1">Director of Talent Sourcing</h3>
+          <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <li>Rebuilt our recruiting funnel to raise the bar on talent</li>
+            <li>Interviewed 60+ applicants and redefined our evaluation rubrics</li>
+            <li>Created onboarding and technical documentation in Notion to help new team members hit the ground running</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    {/* Impact Section*/}
+    <section className="mb-10 border-t border-gray-200 pt-6">
+      <h2 className="text-xl font-semibold mb-4">The Impact</h2>
+      <div className="space-y-6">
+        <div className="grid grid-cols-2 gap-6 text-center text-gray-800">
+          <div>
+            <p className="text-4xl font-bold">30+</p>
+            <p className="text-sm text-gray-500">Developers Onboarded</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold">3</p>
+            <p className="text-sm text-gray-500">Nonprofit Tools Added <br></br>to Production</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold">50%</p>
+            <p className="text-sm text-gray-500">Onboarding Time Reduction</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold">80+</p>
+            <p className="text-sm text-gray-500">Candidates Interviewed</p>
+          </div>
+        </div>
+
+        <blockquote className="border-l-4 border-gray-300 pl-4 italic text-gray-600">
+          “The tool your team built has completely changed the way we serve our community. Thank you for everything.” - Nonprofit Partner
+        </blockquote>
+
+        <p className="text-gray-700">
+          I helped build systems that brought structure to our team, created space for new developers to grow, and made our chapter more capable with each semester.
         </p>
-      </section>
-
-      <section className="mb-10 border-t border-gray-200 pt-6">
-        <h2 className="text-xl font-semibold mb-4">The Impact</h2>
-        <p>
-          I interviewed over 60 applicants, helped onboard 30+ students, and contributed to 3 nonprofit projects that are now in active use. 
-          We cut onboarding time nearly in half and created a culture where new developers could confidently contribute, collaborate, and deliver. 
-          I learned how to build processes that scale, lead with clarity, and empower others to grow. 
-          If I could do one thing differently, I would have documented our systems earlier — structure was key to moving faster.
-        </p>
-      </section>
-
+      </div>
+    </section>
+  
+        {/* Skills*/}
       <section className="border-t border-gray-200 pt-6 pb-16">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Tech Stack Icons */}
@@ -107,18 +147,13 @@ export default function Hack4ImpactProjectPage() {
             <h2 className="text-xl font-semibold mb-4">Links</h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://github.com/your-repo" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                  GitHub Repo
+                <a href="https://utk.hack4impact.org/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  Hack4ImpactUTK Website
                 </a>
-              </li>
+              </li>              
               <li>
-                <a href="https://hack4impactutk.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                  Hack4Impact @ UTK
-                </a>
-              </li>
-              <li>
-                <a href="https://yourblog.com/project-post" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                  Blog Post / Reflection
+                <a href="https://github.com/hack4impact-utk" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  Hack4ImpactUTK GitHub
                 </a>
               </li>
             </ul>

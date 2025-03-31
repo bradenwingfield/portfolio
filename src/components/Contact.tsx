@@ -5,7 +5,7 @@ export default function Contact() {
     <section className="w-full px-6 py-24 max-w-4xl mx-auto text-center" id="contact">
       <h2 className="text-3xl font-semibold text-black mb-4">Let&apos;s Connect</h2>
       <p className="text-gray-600 text-lg mb-4">
-        If you&apos;re interested in my work or have an opportunity in mind, I&apos;d love to hear from you.
+        If you&apos;re interested in my work or have an opportunity in mind, I&apos;d love to chat.
       </p>
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4">
