@@ -5,7 +5,7 @@ export const projects = [
       description: 'Software engineering intern at the Tennessee Valley Authority.',
       image: '/project-placeholder.png',
       tags: ['Angular', '.NET', 'Excel'],
-      featured: true,
+      featured: false,
     },
     {
       slug: 'hack4impact', 
@@ -29,7 +29,7 @@ export const projects = [
       description: 'An iOS and Android app to predict and log drag race times using real-world data.',
       image: '/project-placeholder.png',
       tags: ['React Native', 'Expo'],
-      featured: false,
+      featured: true,
     },
     {
     slug: 'portfolio',
