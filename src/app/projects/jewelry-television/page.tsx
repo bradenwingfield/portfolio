@@ -115,7 +115,7 @@ export default function JTVPage() {
 
           {/* Links */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Links</h2>
+            <h2 className="text-xl font-semibold mb-4">Learn More</h2>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="https://jtv.org" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
@@ -125,6 +125,26 @@ export default function JTVPage() {
               <li>
                 <a href="https://integrate.utk.edu/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
                   HIBEP Website
+                </a>
+              </li>
+              <li>
+                <a href="https://goleansixsigma.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  Go Lean Six Sigma (GLSS)
+                </a>
+              </li> 
+              <li>
+                <a href="https://goleansixsigma.com/dmaic-five-basic-phases-of-lean-six-sigma/ " className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  GLSS DMAIC Framework
+                </a>
+              </li>  
+              <li>
+                <a href="https://a.co/d/1kR4em0" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  Book: Lean Six Sigma Pocket Toolbook
+                </a>
+              </li> 
+              <li>
+                <a href="https://a.co/d/dwvcNb7" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+                  Book: 5 Dysfunctions of a Team
                 </a>
               </li>                   
             </ul>
