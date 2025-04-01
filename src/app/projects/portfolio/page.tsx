@@ -85,7 +85,7 @@ export default function PortfolioPage() {
 
           {/* Links */}
           <div>
-            <h2 className="text-xl font-semibold mb-4">Links</h2>
+            <h2 className="text-xl font-semibold mb-4">Learn More</h2>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="https://github.com/bradenwingfield/portfolio" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">

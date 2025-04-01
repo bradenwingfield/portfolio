@@ -26,7 +26,7 @@ export const projects = [
     {
       slug: 'drag-racing-app', 
       title: 'Drag Racing Time Tracker',
-      description: 'iOS app to predict and log drag race times using Expo + React Native.',
+      description: 'An iOS and Android app to predict and log drag race times using real-world data.',
       image: '/project-placeholder.png',
       tags: ['React Native', 'Expo'],
       featured: false,
