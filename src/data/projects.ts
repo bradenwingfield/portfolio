@@ -1,13 +1,5 @@
 export const projects = [
     {
-      slug: 'tva', 
-      title: 'TVA',
-      description: 'Software engineering intern at the Tennessee Valley Authority.',
-      image: '/project-placeholder.png',
-      tags: ['Angular', '.NET', 'Excel'],
-      featured: false,
-    },
-    {
       slug: 'hack4impact', 
       title: 'Hack4Impact',
       description: 'Students building professional software for nonprofits.',
