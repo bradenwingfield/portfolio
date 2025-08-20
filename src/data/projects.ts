@@ -1,10 +1,10 @@
 export const projects = [
     {
-      slug: 'hack4impact', 
-      title: 'Hack4Impact',
-      description: 'Students building professional software for nonprofits.',
-      image: '/hack4impact.png',
-      tags: ['React', 'MongoDB'],
+      slug: 'ironindustries', 
+      title: 'IronIndustries',
+      description: 'Assessed client operations and applied 3D printing processes that streamlined production, improved margins, and fulfilled 1000+ orders.',
+      image: '/ironindustries.png',
+      tags: ['Product Development', 'Project Management'],
       featured: true,
     },
     {
@@ -14,13 +14,13 @@ export const projects = [
       image: '/JTV.png',
       tags: ['Lean Six Sigma'],
       featured: true,
-    }, 
+    },
     {
-      slug: 'ironindustries', 
-      title: 'IronIndustries',
-      description: 'Assessed client operations and applied 3D printing processes that streamlined production, improved margins, and fulfilled 1000+ orders.',
-      image: '/ironindustries.png',
-      tags: ['Product Development', 'Project Management'],
+      slug: 'hack4impact', 
+      title: 'Hack4Impact',
+      description: 'Students building professional software for nonprofits.',
+      image: '/hack4impact.png',
+      tags: ['React', 'MongoDB'],
       featured: true,
     },
     {
