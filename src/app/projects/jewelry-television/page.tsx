@@ -59,8 +59,8 @@ export default function JTVPage() {
           </ul>
       </section>
 
-        {/* Impact Section*/}
-        <section className="mb-10 border-t border-gray-200 pt-6">
+      {/* Impact Section*/}
+      <section className="mb-10 border-t border-gray-200 pt-6">
         <h2 className="text-xl font-semibold mb-4">The Outcome</h2>
         <div className="space-y-6">
             <div className="grid grid-cols-3 gap-6 text-center text-gray-800">
