@@ -16,11 +16,11 @@ export const projects = [
       featured: true,
     }, 
     {
-      slug: 'drag-racing-app', 
-      title: 'Drag Racing Time Tracker',
-      description: 'An iOS and Android app to predict and log drag race times using real-world data.',
+      slug: 'ironindustries', 
+      title: 'IronIndustries',
+      description: 'Assessed client operations and applied 3D printing processes that streamlined production, improved margins, and fulfilled 1000+ orders.',
       image: '/project-placeholder.png',
-      tags: ['React Native', 'Expo'],
+      tags: ['Product Development', 'Project Management'],
       featured: true,
     },
     {
