@@ -19,7 +19,7 @@ export const projects = [
       slug: 'ironindustries', 
       title: 'IronIndustries',
       description: 'Assessed client operations and applied 3D printing processes that streamlined production, improved margins, and fulfilled 1000+ orders.',
-      image: '/ironindustries.jpg',
+      image: '/ironindustries.png',
       tags: ['Product Development', 'Project Management'],
       featured: true,
     },

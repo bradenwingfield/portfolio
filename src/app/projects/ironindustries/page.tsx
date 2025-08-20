@@ -10,7 +10,7 @@ export default function IronIndustriesPage() {
       {/* Hero Image */}
       <div className="mb-10">
         <Image
-          src="/ironindustries.jpg"
+          src="/ironindustries.png"
           alt="IronIndustries Screenshot"
           width={1200}
           height={630}
